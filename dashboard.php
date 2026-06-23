@@ -28,7 +28,7 @@ if (!isset($_SESSION['user_id'])) {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #166d41;
+            background-color: #024423;
             padding: 15px 40px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             border-bottom: 1px solid #2d3d34;
@@ -59,9 +59,9 @@ if (!isset($_SESSION['user_id'])) {
         /* Logout Button */
         .logout-btn {
         padding: 8px 18px;
-        background-color: transparent; 
-        color: #f87171;                
-        border: 2px solid #f87171;     
+        background-color: #5e2004; 
+        color: #ddd3d3;                
+        border: 2px solid #5e2004;    
         border-radius: 6px;
         font-size: 0.9rem;
         font-weight: 600;
@@ -70,8 +70,8 @@ if (!isset($_SESSION['user_id'])) {
         }
 
         .logout-btn:hover { 
-        background-color: #f87171;     
-        color: #1c2621;                
+        background-color: #ad1b1b;     
+        color: #fdfffe;                
         }
 
         /* Main Content Container */
@@ -119,7 +119,7 @@ if (!isset($_SESSION['user_id'])) {
             height: 300px;
             border-radius: 50%; /* Makes it perfectly round */
             object-fit: cover; /* Ensures the image fills the circle without stretching */
-            border: 4px solid #4ade80; /* Theme green border */
+            border: 4px solid #09682c; /* Theme green border */
             margin-bottom: 20px;
             background-color: #2d3d34; /* Fallback color before image loads */
         }
